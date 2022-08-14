@@ -121,6 +121,15 @@ th, td {
     border-collapse: collapse;
 
 }
+
+
+br{
+    
+    display:none;
+    
+}
+
+
 @media (max-width:1280px){
 
     div.headline{
