@@ -1,11 +1,11 @@
 body{
 
     background-image: url('01.jpeg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
-    background-size: cover;
 
 }
+
 
 
 div.headline{
