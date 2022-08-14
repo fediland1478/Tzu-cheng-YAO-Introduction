@@ -155,11 +155,6 @@ br{
         font-size:14x;
     }
 
-    br{
-
-        display:none;
-    }
-
 }
 
 @media (max-width:820px){
