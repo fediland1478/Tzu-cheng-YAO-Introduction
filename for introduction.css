@@ -10,7 +10,7 @@ body{
 
 div.headline{
 
-    background-color:#2B4162;
+    background-color: #2B4162;
     opacity: 0.8;
     font-size: 40px;
 
@@ -24,20 +24,21 @@ div.headline{
     border: 10px solid #2cd1df;
     border-radius: 25px;
     padding: 20px;
-    font-weight:bolder;
+    font-weight: bolder;
     color: white;
     text-align: center;
-    justify-content:center;
-    padding:10px;
+    justify-content: center;
+    padding: 10px;
 
 }
 
 
 ul{
-    background-color:black;
+    
+    background-color: black;
     opacity: 0.6;
-    font-size:15px;
-    color:white;
+    font-size: 15px;
+    color: white;
     letter-spacing: 1px;
     padding: 20px;
 
@@ -59,11 +60,11 @@ div.qu{
     border-radius: 25px;
     border: 5px solid #2cd1df;
     padding: 20px;
-    background-color:#e14b31;
-    font-weight:bolder;
-    color:white;
-    text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    padding:10px;
+    background-color: #e14b31;
+    font-weight: bolder;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding: 10px;
        
 
 }
@@ -71,11 +72,11 @@ div.qu{
 
 p{
                
-    background-color:black;
+    background-color: black;
     opacity: 0.6;
-    font-size:15px;
+    font-size: 15px;
     text-align: left;
-    color:white;
+    color: white;
     letter-spacing: 1px;
     padding: 10px;
     
@@ -84,37 +85,39 @@ p{
 
 div.img{
 
-    display:flex
+    display: flex
     
 
 }
 
 img{
 
-    margin-bottom:15px;
+    margin-bottom: 15px;
     border: 1.5px solid #090000;
 
 }
 
 
 table{
-    background-color:black;
+    
+    background-color: black;
     opacity: 0.6;
     letter-spacing: 1px;
-    display:flex;
+    display: flex;
     width: 100%;
-    margin:15px;
+    margin: 15px;
     padding: 8px;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     border: 1px solid white;
     border-collapse: collapse;
 
 }
 
 
-th, td {
-    color:white;
+th, td{
+    
+    color: white;
     width: 50%;
     padding: 8px;  
     border: 1px solid white;
@@ -124,76 +127,76 @@ th, td {
 
 br{
 
-    display:none;
+    display: none;
     
 }
 
-@media (max-width:1280px){
+@media (max-width: 1280px){
 
     div.headline{
 
-        font-size:50px;
+        font-size: 50px;
 
     }
 
     ul{
 
-        font-size:14px;
+        font-size: 14px;
 
     }
 
     div.qu{
 
-        font-size:19px;
+        font-size: 19px;
 
     }
 
     p{
 
-        font-size:14x;
+        font-size: 14x;
     }
 
 }
 
-@media (max-width:820px){
+@media (max-width: 820px){
 
     div.headline{
 
-        font-size:50px;
+        font-size: 50px;
 
     }
 
     ul{
 
-        font-size:13px;
+        font-size: 13px;
 
     }
 
     div.qu{
 
-        font-size:16px;
+        font-size: 16px;
 
     }
 
     p{
 
-        font-size:13px;
+        font-size: 13px;
     }
 
     div.img{
 
-        flex-wrap:wrap;
-        justify-content:center;
-        align-items:center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
 }
 
-@media (max-width:360px){
+@media (max-width: 360px){
 
     br{
 
-        display:block;
+        display: block;
 
     }
 
