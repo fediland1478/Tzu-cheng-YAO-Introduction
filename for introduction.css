@@ -84,9 +84,8 @@ p{
 
 div.img{
 
-    display:flex
+    display:justify;
     
-
 }
 
 img{
