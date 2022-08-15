@@ -89,11 +89,22 @@ p{
 
 }
 
-div.img{
+div.img1{
 
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.img2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
+
 
 img{
 
@@ -127,7 +138,7 @@ th, td {
 
 }
 
-@media (max-width:1190px){
+@media (max-width: 1190px){
 
     div.headline{
 
@@ -158,25 +169,39 @@ th, td {
 
     div.headline{
 
-        font-size:50px;
+        font-size: 50px;
 
     }
 
     ul{
 
-        font-size:13px;
+        font-size: 13px;
 
     }
 
     div.qu{
 
-        font-size:16px;
+        font-size: 16px;
 
     }
 
     p{
 
-        font-size:13px;
+        font-size: 13px;
     }
+    
+    div.img1{
 
+        flex-wrap: wrap;
+    
+    }
+    
+    div.img2{
+    
+        flex-wrap: wrap;
+        
+    }
+    
+    
+    
 }
