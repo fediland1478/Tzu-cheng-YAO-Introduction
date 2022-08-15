@@ -190,17 +190,22 @@ th, td {
         font-size: 13px;
     }
     
-    div.img1{
+        div.img1{
 
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     
     }
     
     div.img2{
     
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         
     }
+
     
     
     
