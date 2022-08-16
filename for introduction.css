@@ -1,7 +1,7 @@
 body{
 
     background-image: url('01.jpeg');
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
 
@@ -140,6 +140,16 @@ th, td {
 
 @media (max-width: 1190px){
 
+    body{
+
+        background-image: url('01.jpeg');
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-size: auto;
+    
+    }
+    
+    
     div.headline{
 
         font-size: 50px;
@@ -190,7 +200,7 @@ th, td {
         font-size: 13px;
     }
     
-        div.img1{
+    div.img1{
 
         flex-wrap: wrap;
         justify-content: center;
@@ -205,13 +215,14 @@ th, td {
         align-items: center;
         
     }
-
-        @media (max-width: 750px){
+   
+    @media (max-width: 750px){
 
     br{
 
         display: none;
     }
+
     
     
 }
