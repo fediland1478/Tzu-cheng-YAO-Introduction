@@ -206,7 +206,12 @@ th, td {
         
     }
 
-    
+        @media (max-width: 360px){
+
+    br{
+
+        display: none;
+    }
     
     
 }
